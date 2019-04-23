@@ -1,0 +1,93 @@
+/*
+should contain general positioning on the page
+Apply to elements such as header, footer, nav, aside
+Classes and IDs can be included here
+*/
+
+nav, article, aside, footer section {
+  margin: 0 auto;
+  width: 900px;
+}
+
+nav {
+  margin-top: 25px;
+}
+
+#logo {
+  float: left;
+  padding-bottom: 25px;
+}
+
+#logo img {
+  float: left;
+}
+
+#logo h1 {
+  padding-left: 50px;
+}
+
+#slogan {
+  width: 250px;
+  padding-left: 55px;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  float: left;
+  padding-right: 2px;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+.date {
+  float: left;
+}
+
+.print {
+  text-decoration: none;
+  padding-left: 30px;
+  float: right;
+}
+
+.print img {
+  margin-right: 3px;
+}
+
+.print, .date {
+  margin: 0;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 33px;
+}
+
+.recipe {
+  height: 260px;
+  padding: 37px 0 0 60px;
+  margin: 40px 0;
+}
+
+.recipe li {
+  float: left;
+  width: 40%;
+  font-size: 1.3em;
+  line-height: 31px;
+}
+
+aside {
+  padding-top: 30px;
+  padding-bottom: 60px
+}
+
+
+aside img {
+  float: left;
+}
+
+aside button {
+  float: right;
+}
